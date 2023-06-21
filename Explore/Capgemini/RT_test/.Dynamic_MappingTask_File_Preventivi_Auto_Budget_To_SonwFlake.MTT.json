@@ -1,0 +1,110 @@
+{
+  "objectInfo" : {
+    "id" : "77BV6wLsTKhcJSmKBxnb6B",
+    "name" : "Dynamic_MappingTask_File_Preventivi_Auto_Budget_To_SonwFlake",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BHW0Z00000000000L"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "6AN75MVyz0zjtVwbJhWJwd",
+    "name" : "Unipol_DEV_LINUX",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BHW25000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "c2rbLj9pzo2fWxzSIDG5kQ",
+    "name" : "Snowflake_Connection_LINUXENV",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BHW0B00000000000V"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7fsPhqShmGHlXIcNyI4Ms4",
+    "name" : "Connection_Flat_File_on_infa_test_Linux",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BHW0B000000000010"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3WrmNWtnPmicnNMwFrfRA1",
+    "name" : "Dynamic_Mapping_File_Preventivi_Auto_Budget_To_SonwFlake",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "011BHW1700000000001I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Capgemini/RT_test"
+  } ]
+}

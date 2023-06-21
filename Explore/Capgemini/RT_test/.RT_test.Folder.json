@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "6JVdFv3NPVWgkOUdduP1IT",
+    "name" : "RT_test",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
